@@ -1,11 +1,15 @@
-# a = 10
-# b=0
+# Simple tyy except block fro Zero division error
 
-# try:
-#     c = a/b
-#     print(c)
-# except ZeroDivisionError:
-#     print("Number cannot be divided by zero")
+a = 10
+b=0
+
+try:
+    c = a/b
+    print(c)
+except ZeroDivisionError:
+    print("Number cannot be divided by zero")
+
+# try except block for file error handling
 
 try:
     file = open("data.txt","r")

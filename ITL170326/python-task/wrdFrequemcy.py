@@ -15,19 +15,19 @@ print(freq)
 
 # Letter frequency
 
-# letters = []
+letters = []
 
-# for c in name:
-#     if(c == " "):
-#         continue
-#     letters.append(c)
+for c in name:
+    if(c == " "):
+        continue
+    letters.append(c)
 
-# letterFreq = {}
+letterFreq = {}
 
-# for letter in letters:
-#     if letter in letterFreq:
-#         letterFreq[letter] += 1
-#     else:
-#         letterFreq[letter] = 1
+for letter in letters:
+    if letter in letterFreq:
+        letterFreq[letter] += 1
+    else:
+        letterFreq[letter] = 1
 
-# print(letterFreq)
+print(letterFreq)
